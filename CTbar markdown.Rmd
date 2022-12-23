@@ -1,0 +1,25 @@
+---
+title: "Cocktail bair"
+author: "Chauke Helga"
+date: "2022-11-13"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+library(readr)
+library(dplyr)
+```
+
+## 1. Read the data
+```{r}
+url <- "https://raw.githubusercontent.com/nthun/cocktail-balance/master/cocktail_data.tsv"
+ctbar <- readr::read_tsv(url)
+```
+## 2. Transform the data table and clean the ingredient variable!
+
+
+
+
+
